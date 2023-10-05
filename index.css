@@ -1,0 +1,73 @@
+* {
+	font-family: 'Varela Round', sans-serif;
+}
+
+body {
+	background-color: #1E3E80;
+}
+
+#navbrand {
+	font-family: 'Young Serif', serif;
+}
+
+#landing, #projects, #tools, #contact {
+	min-height: 100vh;
+
+}
+
+#landing {
+	background-image:  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/wall1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#projects {
+	background-color: #1E3E80;
+}
+
+#tools {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/wall2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#contact {
+	background-color: darkslategray;
+	min-height: 60vh;
+	position: relative;
+}
+
+#contact::before { 
+    content: ""; 
+    width: 100%; 
+    height: 50px; 
+    position: absolute; 
+    top: -20px; 
+    left: 0; 
+    background: darkslategray; 
+    transform: skewY(2deg); 
+}
+
+#contact::after { 
+    content: ""; 
+    width: 100%; 
+    height: 70px; 
+    position: absolute; 
+    top: -20px; 
+    left: 0; 
+    background: darkslategray; 
+    transform: skewY(-4deg); 
+}
+
+#profile-pic {
+	width: 400px;
+}
+
+.tools-pic {
+	width: 200px;
+}
+
+.card {
+	background-color: #1B1F26;
+}
