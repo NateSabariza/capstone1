@@ -65,7 +65,9 @@ body {
 }
 
 .tools-pic {
-	width: 200px;
+	width: 8rem;
+	height: 8rem;
+
 }
 
 .card {
